@@ -1,0 +1,11 @@
+package com.cardinal;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+@SpringBootApplication
+public class CardinalHealthApplication {
+	public static void main(String[] args) {
+		SpringApplication.run(CardinalHealthApplication.class, args);
+	}
+}
+
